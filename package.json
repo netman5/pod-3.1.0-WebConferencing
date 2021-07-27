@@ -1,0 +1,29 @@
+{
+  "name": "pod-3.1.0-WebConferencing",
+  "version": "1.0.0",
+  "description": "This is a template to help you get started with your projects. Find out more information inside of the Fellow Handbook.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netman5/pod-3.1.0-WebConferencing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netman5/pod-3.1.0-WebConferencing/issues"
+  },
+  "homepage": "https://github.com/netman5/pod-3.1.0-WebConferencing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
